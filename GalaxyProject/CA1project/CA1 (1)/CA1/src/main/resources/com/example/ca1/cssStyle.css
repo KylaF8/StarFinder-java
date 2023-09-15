@@ -1,0 +1,20 @@
+/* Define styles for different UI components */
+.root {
+    /* Root pane styles */
+    -fx-background-color: #222831;
+}
+
+.button {
+    /* Button styles */
+    -fx-background-color: #f05454;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Serif";
+   // -fx-padding: 10px 20px;
+    // -fx-background-radius: 30px;
+}
+
+
+/* Define pressed effect for buttons */
+.button:pressed {
+    -fx-background-color: #003974;
+}
